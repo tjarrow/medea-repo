@@ -1,0 +1,385 @@
+html {
+    height: 100%;
+    font-size: 100%;
+}
+
+body {
+    font-family:'M PLUS Rounded 1c', sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.l-wrapper {
+    max-width: 1155px;
+    margin: 0 auto;
+}
+
+.l-service-wrapper {
+    max-width: 752px;
+    display: flex;
+}
+
+.l-wrapper--main {
+    margin-top: 60px;
+    display: flex;
+}
+
+.l-wrapper-hor-md {
+    display: flex;
+}
+
+.c-menu {
+  font-size: 14px;
+  display: flex;
+  padding-top: 17px;
+  padding-bottom: 13px;
+}
+
+.c-menu a {
+    padding-top: 10px;
+    margin-right: 60px;
+    font-weight: 500;
+    height: 103%;
+}
+
+.c-menu__bg {
+    width: 100%;
+    background: #FFF;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25)
+}
+
+.c-menu a:hover {
+    font-weight: 600;
+    border-bottom: solid #3A88C4 ;
+    border-radius: 2px 2px 0px 0px;
+}
+
+.c-menu__patient {
+    display: flex;
+}
+
+.c-menu__notify {
+    margin-right: 20px;
+    width: 140px;
+}
+
+.c-sidebar {
+    width: 212px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.c-menu__logo {
+    width: 156px;
+    height: 34px;
+    background: url(../img/logo-main.png) center no-repeat;
+    margin-right: 75px;
+}
+
+.c-menu__patient-wrap {
+    margin-right: 15px;
+    max-width: 105px;
+}
+
+.c-menu__patient-name {
+    font-weight: 600;
+}
+
+.c-menu__patient-birthdate {
+    color: #808080;
+    font-weight: 600;
+}
+
+.c-menu__patient-logo {
+    width: 40px;
+    height: 40px;
+    background: url(../img/user.png) center no-repeat;
+}
+
+.c-menu__notify-btn {
+    padding-top: 21px;
+    width: 16px;
+    height: 20px;
+    background: url(../img/notify.png) center no-repeat;
+    float: right;
+}
+
+.c-content-diary {
+
+   background: #FAFAFA;
+   border-radius: 10px;
+   padding: 26px 27px 22px 27px;
+}
+
+.c-content-diary__list li {
+   padding: 10px 0;
+   border-bottom: 1px solid #D5D5D5;
+    font-weight: 600;
+}
+
+.c-content-diary__list-status {
+    float: right;
+    color: #3A88C4;
+    font-weight: 600;
+}
+
+.c-content-diary__list-icon {
+    background: url(../img/checks.png) center no-repeat;
+    width: 24px;
+    height: 14px;
+}
+
+.c-content-diary__recipe-done {
+    color: #9E9E9E;
+}
+
+.c-content-diary__title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.c-content-diary__edit-btn, .c-content-exams__edit-btn {
+    float: right;
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding: 0 19px ;
+    height: 40px;
+    background: #3A88C4;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #3A88C4;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+.c-content-diary__view-btn {
+    display: block;
+    margin-top: 113px;
+    color: #3A88C4;
+    font-weight: 600;
+}
+
+.c-content-televisita {
+    margin-top: 27px;
+    background: #FFEFD8;
+    border-radius: 15px;
+    padding: 26px 27px 22px 27px;
+}
+
+.l-wrapper-col {
+    width: 448px;
+}
+
+.c-content-televisita__card {
+    display: flex;
+    flex-flow: row;
+    padding: 18px 20px 20px 20px;
+    margin-top: 15px;
+    background: #FFFFFF;
+    width: 346px;
+    justify-content: space-between;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+.c-content-televisita__card:hover {
+    border: 2px solid #FFB851;
+    cursor: pointer;
+}
+
+.c-content-televisita__ask-btn {
+    float: right;
+    text-align: center;
+    line-height: 40px;
+    background: #FFB851;
+    border: 1px solid #FFC26B;
+    box-sizing: border-box;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFFF;
+    width: 140px;
+}
+
+.c-content-televisita__card-img {
+    display: block;
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+.img-1 {
+    background: url(../img/mon.png) center no-repeat;
+}
+
+.img-2 {
+    background: url(../img/user.png) center no-repeat;
+}
+
+.l-wrapper-col--sm {
+    display: flex;
+    flex-flow: column;
+    width: max-content;
+}
+
+.l-wrapper-row--sm {
+    display: flex;
+}
+
+.c-content-televisita__title {
+    color: #EE8C00;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.c-content-televisita__date {
+    display: block;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.c-content-televisita__card-role {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #9E9E9E;
+}
+
+.c-content-televisita__card-name {
+    font-weight: 600;
+}
+
+.c-content-televisita__view-btn {
+    display: block;
+    margin-top: 84px;
+    color: #3A88C4;
+    font-weight: 600;
+}
+
+.c-content-televisita__card-time {
+    font-weight: 600;
+    margin-top: 25px;
+    font-size: 18px;
+    color: #EE8C00;
+}
+
+.c-content-televisita__card-status {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.c-content-televisita__card-time--complete {
+    color: #000000;
+    margin-top: 0;
+    text-align: right;
+}
+
+.c-content-exams {
+    padding: 26px 27px 22px 27px;
+    width: 394px;
+    background: #B6DFFF;
+    margin-left: 23px;
+    border-radius: 15px;
+}
+
+.c-content-exams__date {
+    display: block;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.c-content-exams__title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #14598D;
+}
+
+.c-content-exams__edit-btn {
+
+}
+
+.c-content-exams__list-icon-heart {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(../img/heart-2.svg) center no-repeat;
+}
+
+.c-content-exams__list li {
+    display: flex;
+    background: #FFFFFF;
+    margin-bottom: 6px;
+    padding: 15px 17px 17px 16px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+.c-content-exams__list-name {
+    width: 158px;
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 11px;
+}
+
+.c-content-exams__list-value {
+    font-size: 14px;
+    text-align: center;
+    width: 76px;
+    border-left: 1px solid #B6DFFF;
+    border-right: 1px solid #B6DFFF;
+    font-weight: 600;
+}
+
+.c-content-exams__list-status--in-process {
+    color: #EE8C00;
+    font-weight: 600;
+    padding-top: 2px;
+    text-align: center;
+    font-size: 12px;
+    margin-left: 22px;
+}
+
+.c-content-exams__list-status--done {
+    color: #3A88C4;
+    padding-top: 2px;
+    font-weight: 600;
+    text-align: center;
+    font-size: 12px;
+    margin-left: 22px;
+}
+
+.c-content-exams__list-icon-download {
+    width: 14px;
+    height: 17px;
+    background: url('../img/download.png') center no-repeat;
+    margin-left: 5px;
+}
+
+.c-content-exams__view-btn {
+    display: block;
+    margin-top: 29px;
+    color: #3A88C4;
+    font-weight: 600;
+}
+
+.c-content-exams__list--empty-item {
+    justify-content: space-between;
+}
