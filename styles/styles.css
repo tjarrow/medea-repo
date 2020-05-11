@@ -1,0 +1,596 @@
+html {
+    height: 100%;
+    font-size: 100%;
+}
+
+body {
+    font-family:'M PLUS Rounded 1c', sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.l-wrapper {
+    max-width: 1155px;
+    margin: 0 auto;
+}
+
+.l-service-wrapper {
+    max-width: 752px;
+    display: flex;
+}
+
+.l-wrapper--main {
+    margin-top: 60px;
+    display: flex;
+}
+
+.l-wrapper-hor--md {
+    display: flex;
+    max-width: 919px;
+}
+
+.c-startpage-bg {
+    background: url(../img/medea-start.png) center no-repeat;
+    display: flex;
+    margin: 0 auto;
+    width: 1440px;
+    height: 1024px;
+}
+
+.c-menu {
+  font-size: 14px;
+  display: flex;
+  padding-top: 17px;
+  padding-bottom: 13px;
+}
+
+.c-menu--short {
+    justify-content: space-between;
+}
+
+.c-menu a {
+    padding-top: 10px;
+    margin-right: 60px;
+    font-weight: 500;
+    height: 103%;
+}
+
+.c-menu__bg {
+    width: 100%;
+    background: #FFF;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25)
+}
+
+.c-menu a:hover {
+    font-weight: 600;
+    border-bottom: solid #3A88C4 ;
+    border-radius: 2px 2px 0px 0px;
+}
+
+.c-menu__patient {
+    display: flex;
+}
+
+.c-menu__notify {
+    margin-right: 20px;
+    width: 140px;
+}
+
+.c-sidebar {
+    width: 212px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.c-menu__logo {
+    width: 156px;
+    height: 34px;
+    background: url(../img/logo-main.png) center no-repeat;
+    margin-right: 75px;
+}
+
+.c-menu__patient-wrap {
+    margin-right: 15px;
+    max-width: 105px;
+}
+
+.c-menu__patient-name {
+    font-weight: 600;
+}
+
+.c-menu__patient-birthdate {
+    color: #808080;
+    font-weight: 600;
+}
+
+.c-menu__patient-logo {
+    width: 40px;
+    height: 40px;
+    background: url(../img/user.png) center no-repeat;
+}
+
+.c-menu__notify-btn {
+    padding-top: 21px;
+    width: 16px;
+    height: 20px;
+    background: url(../img/notify.png) center no-repeat;
+    float: right;
+}
+
+.c-content-diary {
+
+   background: #FAFAFA;
+   border-radius: 10px;
+   padding: 26px 27px 22px 27px;
+}
+
+.c-content-diary__list li {
+   padding: 10px 0;
+   border-bottom: 1px solid #D5D5D5;
+    font-weight: 600;
+}
+
+.c-content-diary__list-status {
+    float: right;
+    color: #3A88C4;
+    font-weight: 600;
+}
+
+.c-content-diary__list-icon {
+    background: url(../img/checks.png) center no-repeat;
+    width: 24px;
+    height: 14px;
+}
+
+.c-content-diary__recipe-done {
+    color: #9E9E9E;
+}
+
+.c-content-diary__title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.c-content-diary__edit-btn, .c-content-exams__edit-btn {
+    float: right;
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding: 0 19px ;
+    height: 40px;
+    background: #3A88C4;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #3A88C4;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+.c-content-diary__view-btn {
+    display: block;
+    margin-top: 113px;
+    color: #3A88C4;
+    font-weight: 600;
+}
+
+.c-content-televisita {
+    margin-top: 27px;
+    background: #FFEFD8;
+    border-radius: 15px;
+    padding: 26px 27px 22px 27px;
+}
+
+.l-wrapper-col {
+    width: 448px;
+}
+
+.c-content-televisita__card {
+    display: flex;
+    flex-flow: row;
+    padding: 18px 20px 20px 20px;
+    margin-top: 15px;
+    background: #FFFFFF;
+    width: 346px;
+    justify-content: space-between;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+.c-content-televisita__card:hover {
+    box-shadow: 0 0 0 2px  #FFB851;
+    cursor: pointer;
+}
+
+.c-content-televisita__ask-btn {
+    float: right;
+    text-align: center;
+    line-height: 40px;
+    background: #FFB851;
+    border: 1px solid #FFC26B;
+    box-sizing: border-box;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFFF;
+    width: 140px;
+}
+
+.c-content-televisita__card-img {
+    display: block;
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+.img-1 {
+    background: url(../img/mon.png) center no-repeat;
+}
+
+.img-2 {
+    background: url(../img/user.png) center no-repeat;
+}
+
+.l-wrapper-col {
+    display: flex;
+    flex-flow: column;
+    width: max-content;
+}
+
+.l-wrapper-row--sm {
+    display: flex;
+}
+
+.c-content-televisita__title {
+    margin-top: 10px;
+    color: #EE8C00;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.c-content-televisita__date {
+    display: block;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.c-content-televisita__card-role {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #9E9E9E;
+    margin-bottom: 7px;
+}
+
+.c-content-televisita__card-name {
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.c-content-televisita__card-loc {
+    font-size: 14px;
+}
+
+.c-content-televisita__view-btn {
+    display: block;
+    margin-top: 30px;
+    color: #3A88C4;
+    font-weight: 600;
+}
+
+.c-content-televisita__card-time {
+    font-weight: 600;
+    margin-top: 25px;
+    font-size: 18px;
+    color: #EE8C00;
+}
+
+.c-content-televisita__card-status {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.c-content-televisita__card-time--complete {
+    color: #000000;
+    margin-top: 0;
+    text-align: right;
+}
+
+.c-content-exams {
+    padding: 26px 27px 22px 27px;
+    width: 394px;
+    background: #B6DFFF;
+    margin-left: 23px;
+    border-radius: 15px;
+}
+
+.c-content-exams__date {
+    display: block;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.c-content-exams__title {
+    display: inline-block;
+    margin-top: 9px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #14598D;
+}
+
+.c-content-exams__edit-btn {
+
+}
+
+.c-content-exams__list-icon-heart {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(../img/heart-2.svg) center no-repeat;
+}
+
+.c-content-exams__list li {
+    display: flex;
+    background: #FFFFFF;
+    margin-bottom: 6px;
+    padding: 15px 17px 17px 16px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+.c-content-exams__list-name {
+    width: 158px;
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 11px;
+}
+
+.c-content-exams__list-value {
+    font-size: 14px;
+    text-align: center;
+    width: 76px;
+    border-left: 1px solid #B6DFFF;
+    border-right: 1px solid #B6DFFF;
+    font-weight: 600;
+}
+
+.c-content-exams__list-status--in-process {
+    color: #EE8C00;
+    font-weight: 600;
+    padding-top: 2px;
+    text-align: center;
+    font-size: 12px;
+    margin-left: 18px;
+}
+
+.c-content-exams__list-status--done {
+    color: #3A88C4;
+    padding-top: 2px;
+    font-weight: 600;
+    text-align: center;
+    font-size: 12px;
+    margin-left: 22px;
+}
+
+.c-content-exams__list-icon-download, .c-content-televisita__list-icon-download {
+    width: 14px;
+    height: 17px;
+    background: url('../img/download.png') center no-repeat;
+    margin-left: 5px;
+}
+
+.c-content-televisita__list-icon-download {
+    margin-top: 29px;
+}
+
+.c-content-televisita__list-status--done {
+    color: #3A88C4;
+    padding-top: 2px;
+    font-weight: 600;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 29px;
+}
+
+.c-content-exams__view-btn {
+    display: block;
+    margin-top: 29px;
+    color: #3A88C4;
+    font-weight: 600;
+}
+
+.c-content-exams__list--empty-item {
+    justify-content: space-between;
+}
+
+.c-sidebar__icon-note, .c-sidebar__icon-heart {
+    margin-top: 7px;
+    margin-right: 22px;
+    display: block;
+    width: 24px;
+    height: 24px;
+}
+
+.c-sidebar__icon-note {
+    background: url('../img/note-1.svg') center no-repeat;
+}
+.c-sidebar__icon-heart {
+    background: url('../img/heart-2.svg') center no-repeat;
+}
+
+.l-content-patient-data__wrapper {
+    display: flex;
+    margin-top: 19px;
+}
+
+.c-sidebar--patient {
+    height: 1024px;
+    box-shadow: 6px 0 9px -5px rgba(0, 0, 0, 0.25);
+    margin-right: 30px;
+    margin-top: -42px;
+    padding-top: 42px;
+    width: 200px;
+}
+
+.c-sidebar--patient > div > a {
+    font-size: 16px;
+}
+
+.c-sidebar--patient > div:first-child {
+    margin-bottom: 15px;
+}
+
+.c-sidebar__patient-exams {
+    margin-left: 47px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.l-wrapper--patient {
+    display: flex;
+    margin-top: 42px;
+}
+
+.c-content-patient-data {
+    padding: 34px 35px 34px 34px;
+    background: #F7F7F7;
+}
+
+.c-content-patient-data__title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #808080;
+}
+
+.c-content-patient-data__icon {
+    display: block;
+    width: 86px;
+    height: 86px;
+    background: url('../img/user-lg.svg') center no-repeat;
+    margin-right: 36px;
+}
+
+.c-content-patient-data__text--lg {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.c-content-patient-data__text--sm {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+c-content-patient-data__text--sm:nth-child(2) {
+    margin-top: 10px;
+}
+
+.c-content-patient-data__text--sm::before {
+    content: "\2022";
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.c-content-patient-data__block {
+    display: flex;
+    flex-flow: column;
+    margin-right: 112px;
+    margin-top: 10px;
+}
+
+.c-content-patient-data__block:nth-child(2) {
+    margin-right: 169px !important;
+}
+
+.c-content-patient-data__block > .c-content-patient-data__text--sm  {
+    padding-top: 6px;
+}
+
+.c-content-patient-data__text--sm-bottom {
+   margin-top: 11px;
+}
+
+.c-content-patient-data__edit-btn {
+    background: url('../img/pen.svg') center no-repeat;
+    width: 18px;
+    height: 18px;
+    float: right;
+}
+
+.c-content-patient-exams {
+    padding: 26px 17px 22px 30px;
+    margin-top: 21px;
+    margin-left: 0;
+    height: 372px;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.c-content-patient-exams__scrollbar, .c-content-patient-televisita__scrollbar {
+    width: 9px;
+    height: 420px;
+    margin-top: 21px;
+    border-radius: 0px 15px 15px 0px;
+    padding: 0 5px ;
+}
+
+.c-content-patient-exams__scrollbar {
+    background: #9CD4FF;
+}
+
+.c-content-patient-televisita__scrollbar {
+    background: #FFE3BB;
+}
+
+.c-content-patient-televisita {
+    padding: 26px 17px 22px 27px;
+    height: 372px;
+    margin-top: 21px;
+    margin-left: 24px;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.c-content-patient-exams__scrollbar-item, .c-content-patient-televisita__scrollbar-item {
+    width: 8px;
+    height: 95px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 273px;
+}
+
+.c-startpage-logo {
+    width: 156px;
+    height: 34px;
+    background: url(../img/logo-main.png) center no-repeat;
+    position: absolute;
+    margin-left: 62px;
+    margin-top: 44px;
+}
+
+.c-auth {
+    width: 846px;
+    margin: 0 auto;
+    margin-top: 360px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.c-auth-patients, .c-auth-medstaff {
+    width: 378px;
+}
