@@ -575,22 +575,85 @@ c-content-patient-data__text--sm:nth-child(2) {
 }
 
 .c-startpage-logo {
-    width: 156px;
-    height: 34px;
-    background: url(../img/logo-main.png) center no-repeat;
+    width: 207px;
+    height: 45px;
+    background: url(../img/MEDEA-LOGO-DEFINITIVO.png) center no-repeat;
     position: absolute;
     margin-left: 62px;
     margin-top: 44px;
 }
 
 .c-auth {
-    width: 846px;
+    width: 1103px;
     margin: 0 auto;
-    margin-top: 360px;
+    margin-top: 345px;
     display: flex;
     justify-content: space-between;
 }
 
 .c-auth-patients, .c-auth-medstaff {
     width: 378px;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+}
+
+.c-auth-patients__title, .c-auth-medstaff__title {
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 48px;
+}
+
+.c-auth-patients__content, .c-auth-medstaff__content {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.c-auth__signup {
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 14px;
+    margin-top: 21px;
+}
+
+.c-auth-patients__login {
+    margin-top: 57px;
+    display: flex;
+}
+
+.c-auth-medstaff__login {
+    margin-top: 33px;
+    display: flex;
+}
+
+.c-auth-patients__login > input, .c-auth-medstaff__login > input {
+    padding: 19px 20px;
+    width: 257px;
+    height: 14px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+}
+
+.c-auth-patients__login > input::placeholder, .c-auth-medstaff__login > input::placeholder {
+    font-size: 14px;
+    font-family:'M PLUS Rounded 1c', sans-serif;
+    font-weight: 600;
+}
+
+.c-auth-patients__login > button, .c-auth-medstaff__login > button {
+    border-radius: 4px;
+    width: 136px;
+    padding-top: 14px;
+    margin-left: -2px;
+    padding-bottom: 14px;
+    font-weight: 800;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family:'M PLUS Rounded 1c', sans-serif;
+    background: #157CB9;
+    border: none;
 }
