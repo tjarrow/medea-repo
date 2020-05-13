@@ -129,7 +129,7 @@ ul {
     padding-top: 21px;
     width: 16px;
     height: 20px;
-    background: url(../img/notify.png) center no-repeat;
+    background: url(../img/notify.svg) center no-repeat;
     float: right;
 }
 
@@ -511,7 +511,7 @@ c-content-patient-data__text--sm:nth-child(2) {
 .c-content-patient-data__block {
     display: flex;
     flex-flow: column;
-    margin-right: 112px;
+    margin-right: 107px;
     margin-top: 10px;
 }
 
@@ -697,27 +697,37 @@ c-content-patient-data__text--sm:nth-child(2) {
     flex-flow: column;
 }
 
-.c-signup-form input {
+.c-signup-form__input-wrap {
+    position: relative;
+}
+
+.c-signup-form__input-wrap input {
     border: 1px solid rgba(0, 0, 0, 0.3);
     box-sizing: border-box;
     border-radius: 5px;
-    position: relative;
     display: block;
     font-size: 16px;
     line-height: 24px;
     padding: 16px 21px 17px;
     margin-bottom: 35px;
+    width: 100%;
 }
 
-.c-signup-form > div::before {
+.c-signup-form__input-wrap::before {
     content: '';
     position: absolute;
     background: url('../img/remove_red_eye-24px-2.png') center no-repeat;
     width: 24px;
     height: 24px;
+    right: 22px;
+    top: 17px;
 }
 
-.c-signup-form input::placeholder {
+.c-signup-form__input-wrap--no-icon::before {
+    display: none;
+}
+
+.c-signup-form__input-wrap input::placeholder {
     font-family:'M PLUS Rounded 1c', sans-serif;
     font-size: 16px;
     line-height: 24px;
@@ -851,6 +861,7 @@ c-content-patient-data__text--sm:nth-child(2) {
     font-size: 16px;
     line-height: 14px;
     margin-left: 18px;
+    margin-top: 5px;
     font-weight: 600;
 }
 
