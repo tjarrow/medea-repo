@@ -657,3 +657,282 @@ c-content-patient-data__text--sm:nth-child(2) {
     background: #157CB9;
     border: none;
 }
+
+.c-signup-bg {
+    background: url(../img/patient-bg.png) center no-repeat;
+    display: flex;
+    margin: 0 auto;
+    width: 1440px;
+    height: 1027px;
+}
+
+.c-signup {
+    width: 540px;
+    height: 482px;
+    background: #FFFFFF;
+    margin: 0 auto;
+    margin-top: 186px;
+    border-radius: 15px;
+    padding: 79px 52px 58px 60px;
+}
+
+.c-signup-logo, .c-signup-ok-logo {
+    display: inline-block;
+    background: url("../img/MEDEA-LOGO-DEFINITIVO-2.png") center no-repeat;
+    width: 198px;
+    height: 43px;
+}
+
+.c-signup-btn {
+    float: right;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.c-signup-form {
+    margin-top: 52px;
+    display: flex;
+    flex-flow: column;
+}
+
+.c-signup-form input {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    border-radius: 5px;
+    position: relative;
+    display: block;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 16px 21px 17px;
+    margin-bottom: 35px;
+}
+
+.c-signup-form > div::before {
+    content: '';
+    position: absolute;
+    background: url('../img/remove_red_eye-24px-2.png') center no-repeat;
+    width: 24px;
+    height: 24px;
+}
+
+.c-signup-form input::placeholder {
+    font-family:'M PLUS Rounded 1c', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.c-signup-btn-submit {
+    font-family:'M PLUS Rounded 1c', sans-serif;
+    background: #3A88C4;
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-bottom: 9px;
+    color: #FFFFFF;
+    margin-top: 6px;
+    border: none;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.c-signup-account-q {
+    display: block;
+    color: #3A88C4;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 31px;
+}
+
+.c-signup-ok {
+    width: 426px;
+    height: 252px;
+    background: #FFFFFF;
+    margin: 0 auto;
+    margin-top: 186px;
+    border-radius: 15px;
+    padding: 77px 57px;
+}
+
+.c-signup-ok-logo {
+    display: block;
+    margin: 0 auto;
+}
+
+.c-signup-ok-content {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 39px;
+}
+
+.c-signup-ok-btn {
+    margin-top: 62px;
+    background: #3A88C4;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.c-exam {
+    width: 478px;
+}
+
+.c-exam__often-used-item, .c-exam__reg-item {
+    display: flex;
+    width: 384px;
+    padding: 15px;
+    margin-bottom: 7px;
+    border-radius: 4px;
+}
+
+.c-exam__often-used-item {
+    background: #B6DFFF;
+}
+
+.c-exam__wrap {
+    display: flex;
+}
+
+.c-exam__title {
+    display: block;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 14px;
+    margin-bottom: 47px;
+}
+
+.c-exam__often-used-status {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 12px;
+    width: 46px;
+    margin-right: 18px;
+}
+
+.c-exam__statuses {
+    justify-content: space-between;
+    display: flex;
+    flex-flow: column;
+    min-width: 46px;
+    padding-top: 29px;
+    margin-right: 18px;
+    text-align: center;
+}
+
+.c-exam__statuses > div {
+    display: flex;
+    flex-flow: column;
+}
+
+.c-exam__reg-item {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.c-exam__statuses > div > span {
+    margin-bottom: 31px;
+    color: #3A88C4;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.c-exam__often-used-item-name, .c-exam__reg-item-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 14px;
+    margin-left: 18px;
+    font-weight: 600;
+}
+
+.c-exam-filter {
+    width: 330px;
+    margin-left: 121px;
+}
+
+.c-exam-filter__title {
+    display: inline-block;
+    font-size: 20px;
+    line-height: 14px;
+    font-weight: 600;
+}
+
+.c-exam-filter__btn {
+    display: inline-block;
+    float: right;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    color: #3A88C4;
+}
+
+.c-exam-filter__search {
+    display: block;
+    background: #F3F3F3;
+    padding: 5px 20px 12px 18px;
+    border-radius: 50px;
+    margin-top: 42px;
+}
+
+.c-exam-filter__search input {
+    background: #F3F3F3;
+    border: none;
+}
+
+.c-exam-filter__search input:focus {
+    outline: none;
+}
+
+.c-exam-filter__search input::placeholder {
+    color: #959595;
+    font-weight: 600;
+    font-size: 14px;
+    font-family:'M PLUS Rounded 1c', sans-serif;
+}
+
+.c-exam-filter__search-icon {
+    background: url("../img/search.svg") center no-repeat;
+    width: 18px;
+    height: 18px;
+    display: block;
+    float: right;
+    margin-top: 5px;
+}
+
+.c-exam-filter__list {
+    margin-top: 40px;
+}
+
+.c-exam-filter__list li {
+    display: flex;
+    margin-bottom: 22px;
+}
+
+.c-exam-filter__list-unchecked, .c-exam-filter__list-checked  {
+    width: 18px;
+    height: 18px;
+    border: 2px solid #157CB9;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin-right: 19px;
+    margin-top: 3px
+}
+
+.c-exam-filter__list-checked {
+    background: url('../img/check.svg') center no-repeat;
+}
+
+.c-exam-filter__list-item--all {
+    font-weight: 700;
+    text-transform: uppercase;
+}
