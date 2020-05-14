@@ -16,6 +16,7 @@ a {
 ul {
     padding: 0;
     list-style-type: none;
+    margin: 0;
 }
 
 .flex {
@@ -98,6 +99,10 @@ ul {
     line-height: 40px;
 }
 
+.c-sidebar-wrap {
+    margin-bottom: 15px;
+}
+
 .c-menu__logo {
     width: 156px;
     height: 34px;
@@ -138,6 +143,10 @@ ul {
    background: #FAFAFA;
    border-radius: 10px;
    padding: 26px 27px 22px 27px;
+}
+
+.c-content-diary__list {
+    margin-top: 25px;
 }
 
 .c-content-diary__list li {
@@ -198,6 +207,10 @@ ul {
 
 .l-wrapper-col {
     width: 448px;
+}
+
+.l-wrapper-col--mr {
+    margin-right: 22px;
 }
 
 .c-content-televisita__card {
@@ -320,6 +333,11 @@ ul {
     border-radius: 15px;
 }
 
+.c-content-exams__list {
+    margin-top: 16px;
+}
+
+
 .c-content-exams__date {
     display: block;
     font-weight: 600;
@@ -420,7 +438,7 @@ ul {
     justify-content: space-between;
 }
 
-.c-sidebar__icon-note, .c-sidebar__icon-heart {
+.c-sidebar__icon-note, .c-sidebar__icon-heart, .c-sidebar__icon-group {
     margin-top: 7px;
     margin-right: 22px;
     display: block;
@@ -433,6 +451,10 @@ ul {
 }
 .c-sidebar__icon-heart {
     background: url('../img/heart-2.svg') center no-repeat;
+}
+
+.c-sidebar__icon-group {
+    background: url('../img/group.svg') center no-repeat;
 }
 
 .l-content-patient-data__wrapper {
@@ -461,6 +483,10 @@ ul {
     margin-left: 47px;
     font-weight: 500;
     font-size: 16px;
+}
+
+.c-sidebar__patient-exams--chosen {
+    font-weight: 600;
 }
 
 .l-wrapper--patient {
@@ -658,12 +684,15 @@ c-content-patient-data__text--sm:nth-child(2) {
     border: none;
 }
 
-.c-signup-bg {
-    background: url(../img/patient-bg.png) center no-repeat;
+.c-signup-bg, .c-signup-doctor-bg {
     display: flex;
     margin: 0 auto;
     width: 1440px;
     height: 1027px;
+}
+
+.c-signup-bg {
+    background: url(../img/patient-bg.png) center no-repeat;
 }
 
 .c-signup {
@@ -674,6 +703,12 @@ c-content-patient-data__text--sm:nth-child(2) {
     margin-top: 186px;
     border-radius: 15px;
     padding: 79px 52px 58px 60px;
+}
+
+.c-signup--narrow {
+    width: 420px;
+    max-height: 577px;
+    padding: 74px 51px 53px 61px;
 }
 
 .c-signup-logo, .c-signup-ok-logo {
@@ -810,6 +845,11 @@ c-content-patient-data__text--sm:nth-child(2) {
 
 .c-exam__wrap {
     display: flex;
+    margin-bottom: 34px;
+}
+
+.c-exam__wrap--single {
+    margin-bottom: 0;
 }
 
 .c-exam__title {
@@ -946,4 +986,215 @@ c-content-patient-data__text--sm:nth-child(2) {
 .c-exam-filter__list-item--all {
     font-weight: 700;
     text-transform: uppercase;
+}
+
+.c-exam__my-exams-date {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 12px;
+    width: 46px;
+    margin-right: 18px;
+}
+
+.c-exam__my-exams-item {
+    display: flex;
+    width: 384px;
+    padding: 15px;
+    margin-bottom: 7px;
+    border-radius: 4px;
+}
+
+.c-content-exams__list--my-exams-item-br {
+    padding: 8px 17px 8px 16px !important;
+}
+
+.c-content-exams__list--my-exams-item {
+    width: 351px;
+}
+
+.c-content-exams__list-icon-heart--br {
+    margin-top: 7px;
+}
+
+.c-content-exams__list-name--my-exams {
+    margin-left: 24px;
+}
+
+.c-signup-doctor-bg {
+    background: url("../img/doctor.png") center no-repeat;
+}
+
+.c-signup-form__prompt {
+    font-weight: 600;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 33px;
+}
+
+.c-content-exams-perf {
+    background: #CFDDFF;
+    border-radius: 15px;
+    padding: 26px 27px 22px 27px;
+    margin-bottom: 22px;
+}
+
+.c-content-exams-perf__title {
+    margin-top: 10px;
+    color: #325DCD;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.c-content-exams-perf__status {
+    display: block;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.c-content-exams-perf__card {
+    display: flex;
+    flex-flow: row;
+    padding: 14px 22px 13px 18px;
+    margin-top: 15px;
+    background: #FFFFFF;
+    width: 346px;
+    justify-content: space-between;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+.c-content-exams-perf__card-research {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.c-content-exams-perf__card-doctor-role {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #9E9E9E;
+}
+.c-content-exams-perf__card-doctor-name {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.c-content-exams-perf__card-patient {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    color: #9E9E9E;
+}
+
+.c-content-exams-perf__card-patient-name {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.c-content-exams-perf__card-result {
+    display: flex;
+    padding-top: 25px;
+}
+
+.c-content-exams-perf__view-btn {
+    display: block;
+    color: #3A88C4;
+    margin-top: 55px;
+    font-weight: 800;
+}
+
+.c-content-patients {
+    background: #FAFAFA;
+    border-radius: 10px;
+    padding: 26px 27px 22px 27px;
+}
+
+.c-content-patients__title {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.c-content-patients__create-btn, .c-content-dashboard-exams__create-btn {
+    float: right;
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding: 0 19px;
+    height: 40px;
+    background: #3A88C4;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #3A88C4;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+.c-content-patients__status {
+    display: block;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.c-content-patients__list {
+    margin-top: 19px;
+}
+
+.c-content-patients__list li {
+    display: flex;
+    background: #FFFFFF;
+    margin-bottom: 6px;
+    padding: 15px 17px 17px 16px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+.c-content-patients__list-user {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin-right: 17px;
+    background: url(../img/user.png) center no-repeat;
+}
+
+.c-content-patients__list-name {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.c-content-patients__view-btn {
+    display: block;
+    margin-top: 35px;
+    color: #3A88C4;
+    font-weight: 600;
+}
+
+.c-content-dashboard-exams__title {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+    color: #14598D;
+}
+
+.c-content-dashboard-exams {
+    background: #CBE8FF;
+    border-radius: 15px;
+    padding: 26px 27px 22px 27px;
+    margin-bottom: 22px;
+}
+
+.c-content-dashboard-exams__list-name {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
 }
