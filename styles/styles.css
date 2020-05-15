@@ -568,7 +568,8 @@ c-content-patient-data__text--sm:nth-child(2) {
     border-radius: 15px 0px 0px 15px;
 }
 
-.c-content-patient-exams__scrollbar, .c-content-patient-televisita__scrollbar {
+.c-content-patient-exams__scrollbar, .c-content-patient-televisita__scrollbar,
+.c-content-dashboard-exams__scrollbar {
     width: 9px;
     height: 420px;
     margin-top: 21px;
@@ -584,6 +585,11 @@ c-content-patient-data__text--sm:nth-child(2) {
     background: #FFE3BB;
 }
 
+.c-content-dashboard-exams__scrollbar {
+    background: #B5DFFF;
+    margin-top: 0;
+}
+
 .c-content-patient-televisita {
     padding: 26px 17px 22px 27px;
     height: 372px;
@@ -592,7 +598,8 @@ c-content-patient-data__text--sm:nth-child(2) {
     border-radius: 15px 0px 0px 15px;
 }
 
-.c-content-patient-exams__scrollbar-item, .c-content-patient-televisita__scrollbar-item {
+.c-content-patient-exams__scrollbar-item, .c-content-patient-televisita__scrollbar-item,
+.c-content-dashboard-exams__scrollbar-item {
     width: 8px;
     height: 95px;
     background: #FFFFFF;
@@ -1036,7 +1043,7 @@ c-content-patient-data__text--sm:nth-child(2) {
 .c-content-exams-perf {
     background: #CFDDFF;
     border-radius: 15px;
-    padding: 26px 27px 22px 27px;
+    padding: 28px 31px 28px 31px;
     margin-bottom: 22px;
 }
 
@@ -1059,7 +1066,7 @@ c-content-patient-data__text--sm:nth-child(2) {
     display: flex;
     flex-flow: row;
     padding: 14px 22px 13px 18px;
-    margin-top: 15px;
+    margin-top: 8px;
     background: #FFFFFF;
     width: 346px;
     justify-content: space-between;
@@ -1136,18 +1143,18 @@ c-content-patient-data__text--sm:nth-child(2) {
     border-radius: 50px;
 }
 
-.c-content-patients__status {
+.c-content-patients__status, .c-content-dashboard-exams__status {
     display: block;
     font-weight: 600;
     font-size: 16px;
-    margin-top: 20px;
+    margin-top: 18px;
 }
 
-.c-content-patients__list {
-    margin-top: 19px;
+.c-content-dashboard-exams__list {
+    margin-top: 17px;
 }
 
-.c-content-patients__list li {
+.c-content-patients__list li, .c-content-dashboard-exams__list li {
     display: flex;
     background: #FFFFFF;
     margin-bottom: 6px;
@@ -1155,6 +1162,15 @@ c-content-patient-data__text--sm:nth-child(2) {
     border-radius: 4px;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
 }
+
+.c-content-patients__list--empty-item, .c-content-dashboard-exams__list-item {
+    width: 345px;
+}
+
+.c-content-patients__list--dashboard {
+    padding: 7px 17px 6px 16px !important;
+}
+
 
 .c-content-patients__list-user {
     display: block;
@@ -1173,9 +1189,13 @@ c-content-patient-data__text--sm:nth-child(2) {
 
 .c-content-patients__view-btn {
     display: block;
-    margin-top: 35px;
+    margin-top: 19px;
     color: #3A88C4;
     font-weight: 600;
+}
+
+.c-content-patients__list {
+    margin-top: 19px;
 }
 
 .c-content-dashboard-exams__title {
@@ -1188,13 +1208,67 @@ c-content-patient-data__text--sm:nth-child(2) {
 
 .c-content-dashboard-exams {
     background: #CBE8FF;
-    border-radius: 15px;
-    padding: 26px 27px 22px 27px;
-    margin-bottom: 22px;
+    border-radius: 15px 0px 0px 15px;
+    padding: 26px 31px 28px 31px;
+    margin-bottom: 27px;
 }
 
 .c-content-dashboard-exams__list-name {
     font-weight: 600;
     font-size: 14px;
     line-height: 20px;
+}
+
+.c-content-dashboard-exams__view-btn {
+    display: block;
+    margin-top: 19px;
+    color: #3A88C4;
+    font-weight: 600;
+}
+
+.c-content-televisita--empty {
+    background: #FFEFD8;
+    border-radius: 15px;
+    padding: 28px 30px 0 31px;
+    height: 393px;
+}
+
+.c-content-televisita__logo-note {
+    display: block;
+    background: url('../img/note-2.svg') center no-repeat;
+    width: 59px;
+    height: 59px;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+
+.c-content-televisita__logo-arrow {
+    display: block;
+    float: right;
+    margin-right: 55px;
+    width: 80px;
+    margin-top: -55px;
+    height: 100px;
+    background: url(../img/Vector-1.svg) center no-repeat;
+    position: relative;
+}
+
+.c-content-televisita__logo-arrow::after {
+    width: 0;
+    position: absolute;
+    height: 0;
+    right: -4px;
+    content: '';
+    border-left: 5px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 13px solid #FFCC84;
+}
+
+.c-content-televisita__notify {
+    width: 237px;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
 }

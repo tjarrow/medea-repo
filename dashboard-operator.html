@@ -15,7 +15,7 @@
         <nav class="c-menu c-menu--short">
             <div class="l-service-wrapper">
                 <div class="c-menu__logo"></div>
-                <a href="#">My Profile</a>
+                <a href="#">Dashboard</a>
                 <a href="#">Doctors and Clinics</a>
             </div>
             <div class="l-service-wrapper">
@@ -97,25 +97,25 @@
                 <span class="c-content-patients__create-btn">Create New</span>
                 <span class="c-content-patients__status">Recent Created</span>
                 <ul class="c-content-patients__list">
-                    <li class="c-content-patients__list--empty-item">
+                    <li class="c-content-patients__list--empty-item c-content-patients__list--dashboard">
                         <div class="flex">
                             <i class="c-content-patients__list-user"></i>
                             <span class="c-content-patients__list-name">Pietro Perugino</span>
                         </div>
                     </li>
-                    <li class="c-content-exams__list--empty-item">
+                    <li class="c-content-patients__list--empty-item c-content-patients__list--dashboard">
                         <div class="flex">
                             <i class="c-content-patients__list-user"></i>
                             <span class="c-content-patients__list-name">Giovanni Bellini</span>
                         </div>
                     </li>
-                    <li class="c-content-exams__list--empty-item">
+                    <li class="c-content-patients__list--empty-item c-content-patients__list--dashboard">
                         <div class="flex">
                             <i class="c-content-patients__list-user"></i>
                             <span class="c-content-patients__list-name">Giovanni Battista Tiepolo</span>
                         </div>
                     </li>
-                    <li class="c-content-exams__list--empty-item">
+                    <li class="c-content-patients__list--empty-item c-content-patients__list--dashboard">
                         <div class="flex">
                             <i class="c-content-patients__list-user"></i>
                             <span class="c-content-patients__list-name">Filippo Lippi</span>
@@ -126,63 +126,41 @@
             </div>
         </div>
         <div class="l-wrapper-col">
-            <div class="c-content-dashboard-exams">
-                <span class="c-content-dashboard-exams__title">Patients</span>
-                <span class="c-content-dashboard-exams__create-btn">Add Exams</span>
-                <span class="c-content-patients__status">All (11)</span>
-                <ul class="c-content-patients__list">
-                    <li class="c-content-patients__list--empty-item">
-                            <span class="c-content-dashboard-exams__list-name">Audiometry</span>
-                    </li>
-                    <li class="c-content-exams__list--empty-item">
-                        <span class="c-content-dashboard-exams__list-name">Roentgen</span>
-                    </li>
-                    <li class="c-content-exams__list--empty-item">
-                        <span class="c-content-dashboard-exams__list-name">Nutrition</span>
-                    </li>
-                    <li class="c-content-exams__list--empty-item">
-                            <span class="c-content-dashboard-exams__list-name">Polysomnography</span>
-                    </li>
-                </ul>
-                <span class="c-content-patients__view-btn">View All</span>
+            <div class="l-wrapper-hor--md">
+                <div class="c-content-dashboard-exams">
+                    <span class="c-content-dashboard-exams__title">Exams</span>
+                    <span class="c-content-dashboard-exams__create-btn">Add Exams</span>
+                    <span class="c-content-dashboard-exams__status">All (11)</span>
+                    <ul class="c-content-dashboard-exams__list">
+                        <li class="c-content-dashboard-exams__list-item">
+                                <span class="c-content-dashboard-exams__list-name">Audiometry</span>
+                        </li>
+                        <li class="c-content-dashboard-exams__list-item">
+                            <span class="c-content-dashboard-exams__list-name">Roentgen</span>
+                        </li>
+                        <li class="c-content-dashboard-exams__list-item">
+                            <span class="c-content-dashboard-exams__list-name">Nutrition</span>
+                        </li>
+                        <li class="c-content-dashboard-exams__list-item">
+                                <span class="c-content-dashboard-exams__list-name">Polysomnography</span>
+                        </li>
+                    </ul>
+                    <span class="c-content-dashboard-exams__view-btn">View All</span>
+                </div>
+                <div class="c-content-dashboard-exams__scrollbar">
+                    <div class="c-content-dashboard-exams__scrollbar-item"></div>
+                </div>
             </div>
-            <div class="c-content-televisita">
+            <div class="c-content-televisita--empty">
                 <span class="c-content-televisita__title">Televisita</span>
                 <span class="c-content-televisita__ask-btn">Ask Televisita</span>
-                <span class="c-content-televisita__date">Today(2)</span>
-                <span>
-                    <div class="c-content-televisita__card">
-                        <div class="l-wrapper-row--sm">
-                        <i class="c-content-televisita__card-img img-1"></i>
-                            <div class="l-wrapper-col">
-                                <span class="c-content-televisita__card-role">Cardiologist</span>
-                                <span class="c-content-televisita__card-name">Lucrezia Borgia</span>
-                                <span class="c-content-televisita__card-loc">New Clinic</span>
-                            </div>
-                        </div>
-                        <div class="l-wrapper-col">
-                            <span class="c-content-televisita__card-status"></span>
-                            <span class="c-content-televisita__card-time">18:35</span>
-                        </div>
-                    </div>
-                    </span>
-                <span>
-                    <div class="c-content-televisita__card">
-                        <div class="l-wrapper-row--sm">
-                            <i class="c-content-televisita__card-img img-2"></i>
-                            <div class="l-wrapper-col">
-                                <span class="c-content-televisita__card-role">Rheumatologist</span>
-                                <span class="c-content-televisita__card-name">Fabio Martino</span>
-                                <span class="c-content-televisita__card-loc">New Med</span>
-                            </div>
-                        </div>
-                        <div class="l-wrapper-col">
-                            <span class="c-content-televisita__card-status">Completed</span>
-                            <span class="c-content-televisita__card-time c-content-televisita__card-time--complete">17:00</span>
-                        </div>
-                    </div>
-                    </span>
-                <span class="c-content-televisita__view-btn">View All</span>
+                <div>
+                    <div class="c-content-televisita__logo-arrow"></div>
+                    <div class="c-content-televisita__logo-note"></div>
+                    <div class="c-content-televisita__notify">
+                        You have never contacted
+                        with televisita</div>
+                </div>
             </div>
 
         </div>
