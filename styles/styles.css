@@ -270,7 +270,6 @@ ul {
 }
 
 .c-content-televisita__title {
-    margin-top: 10px;
     color: #EE8C00;
     font-size: 20px;
     font-weight: 600;
@@ -288,12 +287,14 @@ ul {
     font-weight: 600;
     text-transform: uppercase;
     color: #9E9E9E;
+    font-size: 14px;
     margin-bottom: 7px;
 }
 
 .c-content-televisita__card-name {
     font-weight: 600;
-    margin-bottom: 12px;
+    margin-bottom: 7px;
+    font-size: 14px;
 }
 
 .c-content-televisita__card-loc {
@@ -302,6 +303,7 @@ ul {
 
 .c-content-televisita__view-btn {
     display: block;
+    font-size: 14px;
     margin-top: 30px;
     color: #3A88C4;
     font-weight: 600;
@@ -368,7 +370,7 @@ ul {
     display: flex;
     background: #FFFFFF;
     margin-bottom: 6px;
-    padding: 15px 17px 17px 16px;
+    padding: 15px 17px 15px 16px;
     border-radius: 4px;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
 }
@@ -428,6 +430,7 @@ ul {
 }
 
 .c-content-exams__view-btn {
+    font-size: 14px;
     display: block;
     margin-top: 29px;
     color: #3A88C4;
@@ -591,7 +594,7 @@ c-content-patient-data__text--sm:nth-child(2) {
 }
 
 .c-content-patient-televisita {
-    padding: 26px 17px 22px 27px;
+    padding: 28px 17px 22px 27px;
     height: 372px;
     margin-top: 21px;
     margin-left: 24px;
