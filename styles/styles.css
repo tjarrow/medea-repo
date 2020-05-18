@@ -139,10 +139,10 @@ ul {
 }
 
 .c-content-diary {
-
+   padding: 26px 32px 22px 31px;
+   height: 373px;
    background: #FAFAFA;
    border-radius: 10px;
-   padding: 26px 27px 22px 27px;
 }
 
 .c-content-diary__list {
@@ -202,7 +202,8 @@ ul {
     margin-top: 27px;
     background: #FFEFD8;
     border-radius: 15px;
-    padding: 26px 27px 22px 27px;
+    padding: 26px 32px 22px 31px;
+    height: 373px;
 }
 
 .l-wrapper-col {
@@ -341,9 +342,8 @@ ul {
 }
 
 .c-content-exams__list {
-    margin-top: 16px;
+    margin-top: 12px;
 }
-
 
 .c-content-exams__date {
     display: block;
@@ -375,7 +375,7 @@ ul {
     display: flex;
     background: #FFFFFF;
     margin-bottom: 6px;
-    padding: 15px 17px 15px 16px;
+    padding: 14px 17px 14px 16px;
     border-radius: 4px;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
 }
@@ -567,8 +567,8 @@ c-content-patient-data__text--sm:nth-child(2) {
 
 .c-content-patient-data__edit-btn {
     background: url('../img/pen.svg') center no-repeat;
-    width: 18px;
-    height: 18px;
+    width: 20px;
+    height: 20px;
     float: right;
 }
 
@@ -898,7 +898,7 @@ c-content-patient-data__text--sm:nth-child(2) {
     display: flex;
     flex-flow: column;
     min-width: 46px;
-    padding-top: 29px;
+    padding-top: 15px;
     margin-right: 18px;
     text-align: center;
 }
@@ -914,7 +914,7 @@ c-content-patient-data__text--sm:nth-child(2) {
 }
 
 .c-exam__statuses > div > span {
-    margin-bottom: 31px;
+    margin-bottom: 26px;
     color: #3A88C4;
     font-size: 20px;
     font-weight: 600;
