@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dashboard Operator</title>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+<div class="c-menu__bg">
+    <div class="l-wrapper ">
+        <nav class="c-menu c-menu--short">
+            <div class="l-service-wrapper">
+                <div class="c-menu__logo"></div>
+                <a href="#">Dashboard</a>
+                <a href="#">Doctors and Clinics</a>
+            </div>
+            <div class="l-service-wrapper">
+                <div class="c-menu__notify">
+                    <div class="c-menu__notify-btn"></div>
+                </div>
+                <div class="c-menu__patient">
+                    <div class="c-menu__patient-logo"></div>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+<div class="l-wrapper l-wrapper--patient">
+    <aside class="c-sidebar c-sidebar--patient">
+        <div class="flex c-sidebar-wrap">
+            <i class="c-sidebar__icon-doctor"></i>
+            <a href="#">My Profile</a>
+        </div>
+        <div class="flex c-sidebar-wrap">
+            <i class="c-sidebar__icon-note"></i>
+            <a href="#">Televisita</a>
+        </div>
+        <div class="flex c-sidebar-wrap">
+            <i class="c-sidebar__icon-group"></i>
+            <a href="#">Patients ?</a>
+        </div>
+        <div class="flex c-sidebar-wrap">
+            <i class="c-sidebar__icon-heart"></i>
+            <a href="#">Exams Performed</a>
+        </div>
+        <div class="flex c-sidebar-wrap">
+            <i class="c-sidebar__icon-heart"></i>
+            <a href="#">All Exams</a>
+        </div>
+    </aside>
+    <div class="l-wrapper-col">
+    <section class="l-wrapper-hor--md">
+        <div class="l-wrapper-col l-wrapper-col--mr">
+            <div class="c-content-exams-perf">
+                <span class="c-content-exams-perf__title">Patient Exams</span>
+                <span class="c-content-exams-perf__status c-content-exams-perf__status--patients">Recent Received</span>
+                <div class="c-content-exams-perf__card">
+                    <div class="l-wrapper-row--sm">
+                        <div class="l-wrapper-col">
+                            <span class="c-content-exams-perf__card-research">Roentgen</span>
+                            <div>
+                                <span class="c-content-exams-perf__card-patient">Patient:</span>
+                                <span class="c-content-exams-perf__card-patient-name">Pietro Perugino</span>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="c-content__create-report-btn">Create report</span>
+                </div>
+                <div class="c-content-exams-perf__card">
+                    <div class="l-wrapper-row--sm">
+                        <div class="l-wrapper-col">
+                            <span class="c-content-exams-perf__card-research">Name exams</span>
+                            <div>
+                                <span class="c-content-exams-perf__card-patient">Patient:</span>
+                                <span class="c-content-exams-perf__card-patient-name">Name patient</span>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="c-content__create-report-btn">Create report</span>
+                </div>
+                <div class="c-content-exams-perf__card">
+                    <div class="l-wrapper-row--sm">
+                        <div class="l-wrapper-col">
+                            <span class="c-content-exams-perf__card-research">Name exams</span>
+                            <div>
+                                <span class="c-content-exams-perf__card-patient">Patient:</span>
+                                <span class="c-content-exams-perf__card-patient-name">Name patient</span>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="c-content__create-report-btn">Create report</span>
+                </div>
+                <span class="c-content-exams-perf__view-btn c-content-exams-perf__view-btn--patients">View All</span>
+            </div>
+        </div>
+            <div class="l-wrapper-hor--md">
+                <div class="c-content-dashboard-exams">
+                    <span class="c-content-dashboard-exams__title">All Exams</span>
+                    <span class="c-content-dashboard-exams__status">All (11)</span>
+                    <ul class="c-content-dashboard-exams__list">
+                        <li class="c-content-dashboard-exams__list-item">
+                            <span class="c-content-dashboard-exams__list-name">Audiometry</span>
+                        </li>
+                        <li class="c-content-dashboard-exams__list-item">
+                            <span class="c-content-dashboard-exams__list-name">Roentgen</span>
+                        </li>
+                        <li class="c-content-dashboard-exams__list-item">
+                            <span class="c-content-dashboard-exams__list-name">Nutrition</span>
+                        </li>
+                        <li class="c-content-dashboard-exams__list-item">
+                            <span class="c-content-dashboard-exams__list-name">Polysomnography</span>
+                        </li>
+                    </ul>
+                    <span class="c-content-dashboard-exams__view-btn">View All</span>
+                </div>
+                <div class="c-content-dashboard-exams__scrollbar">
+                    <div class="c-content-dashboard-exams__scrollbar-item"></div>
+                </div>
+            </div>
+    </section>
+    <section class="l-wrapper-hor--md">
+        <div class="c-content-televisita-sch ">
+            <div class="c-content-televisita c-content-televisita--dashboard">
+                <span class="c-content-televisita__title">Televisita</span>
+                <span class="c-content-televisita__date">Today (3)</span>
+                    <div class="c-content-televisita__card c-content-televisita__card--empty">
+                        <div class="l-wrapper-row--sm">
+                        <i class="c-content-televisita__card-img c-content-televisita__card-img--empty img-1"></i>
+                                <span class="c-content-televisita__card-name c-content-televisita__card-name--empty">Mina Anna Mazzini</span>
+                        </div>
+                        <span class="c-content-televisita__card-time c-content-televisita__card-time--empty">18:35</span>
+                    </div>
+                    <div class="c-content-televisita__card c-content-televisita__card--empty">
+                        <div class="l-wrapper-row--sm">
+                            <i class="c-content-televisita__card-img c-content-televisita__card-img--empty img-2"></i>
+                                <span class="c-content-televisita__card-name c-content-televisita__card-name--empty">Antonio Gislardi</span>
+                        </div>
+                        <span class="c-content-televisita__card-time c-content-televisita__card-time--empty
+                            c-content-televisita__card-time--complete">20:35</span>
+                    </div>
+                    <div class="c-content-televisita__card c-content-televisita__card--empty">
+                        <div class="l-wrapper-row--sm">
+                            <i class="c-content-televisita__card-img c-content-televisita__card-img--empty img-2"></i>
+                            <span class="c-content-televisita__card-name c-content-televisita__card-name--empty">Filippo Brunelleschi</span>
+                        </div>
+                        <span class="c-content__create-report-btn">Create report</span>
+                    </div>
+                <span class="c-content-televisita__view-btn c-content-televisita__view-btn--empty">View All</span>
+            </div>
+            <div class="c-content-televisita-sch__schedule">
+                <span class="c-content-televisita__title">My Schedule</span>
+                <span class="c-content-televisita__top-btn">Edit Schedule</span>
+                <div class="c-content-televisita-sch__schedule-dates">
+                    <span>12.01</span>
+                    <span>13.01</span>
+                    <span>14.01</span>
+                    <span>15.01</span>
+                    <span>16.01</span>
+                    <span>17.01</span>
+                </div>
+                <div class="c-content-televisita-sch__schedule-time-block">
+                  <div class="c-content-televisita-sch__schedule-time-col">
+                    <div class="c-content-televisita-sch__schedule-time-item c-content-televisita-sch__schedule-time-item--blue">13:00</div>
+                    <div class="c-content-televisita-sch__schedule-time-item">13:30</div>
+                    <div class="c-content-televisita-sch__schedule-time-item c-content-televisita-sch__schedule-time-item--blue">14:00</div>
+                    <div class="c-content-televisita-sch__schedule-time-item">15:30</div>
+                    <div class="c-content-televisita-sch__schedule-time-item c-content-televisita-sch__schedule-time-item--blue">16:00</div>
+                    <div class="c-content-televisita-sch__schedule-time-item">18:00</div>
+                    <div class="c-content-televisita-sch__schedule-time-item">19:30</div>
+                    <div class="c-content-televisita-sch__schedule-time-item">20:30</div>
+                  </div>
+                  <div class="c-content-televisita-sch__schedule-time-col">
+                    <div class="c-content-televisita-sch__schedule-time-item c-content-televisita-sch__schedule-time-item--empty"></div>
+                    <div class="c-content-televisita-sch__schedule-time-item c-content-televisita-sch__schedule-time-item--empty"></div>
+                    <div class="c-content-televisita-sch__schedule-time-item c-content-televisita-sch__schedule-time-item--empty"></div>
+                    <div class="c-content-televisita-sch__schedule-time-item c-content-televisita-sch__schedule-time-item--empty"></div>
+                    <div class="c-content-televisita-sch__schedule-time-item c-content-televisita-sch__schedule-time-item--empty"></div>
+                    <div class="c-content-televisita-sch__schedule-time-item c-content-televisita-sch__schedule-time-item--empty"></div>
+                    <div class="c-content-televisita-sch__schedule-time-item c-content-televisita-sch__schedule-time-item--empty"></div>
+                    <div class="c-content-televisita-sch__schedule-time-item c-content-televisita-sch__schedule-time-item--empty"></div>
+                  </div>
+                  <div class="c-content-televisita-sch__schedule-time-col">
+                    <div class="c-content-televisita-sch__schedule-time-item">10:00</div>
+                    <div class="c-content-televisita-sch__schedule-time-item">13:30</div>
+                    <div class="c-content-televisita-sch__schedule-time-item">14:00</div>
+                    <div class="c-content-televisita-sch__schedule-time-item">13:30</div>
+                    <div class="c-content-televisita-sch__schedule-time-item">16:00</div>
+                  </div>
+                  <div class="c-content-televisita-sch__schedule-time-col">
+                    <div class="c-content-televisita-sch__schedule-time-item c-content-televisita-sch__schedule-time-item--blue">08:00</div>
+                    <div class="c-content-televisita-sch__schedule-time-item">08:30</div>
+                    <div class="c-content-televisita-sch__schedule-time-item c-content-televisita-sch__schedule-time-item--blue">09:00</div>
+                    <div class="c-content-televisita-sch__schedule-time-item">11:30</div>
+                    <div class="c-content-televisita-sch__schedule-time-item c-content-televisita-sch__schedule-time-item--blue">13:00</div>
+                    <div class="c-content-televisita-sch__schedule-time-item">15:30</div>
+                    <div class="c-content-televisita-sch__schedule-time-item c-content-televisita-sch__schedule-time-item--blue">16:00</div>
+                  </div>
+                  <div class="c-content-televisita-sch__schedule-time-col">
+                      <div class="c-content-televisita-sch__schedule-time-item c-content-televisita-sch__schedule-time-item--empty"></div>
+                      <div class="c-content-televisita-sch__schedule-time-item c-content-televisita-sch__schedule-time-item--empty"></div>
+                      <div class="c-content-televisita-sch__schedule-time-item c-content-televisita-sch__schedule-time-item--empty"></div>
+                      <div class="c-content-televisita-sch__schedule-time-item c-content-televisita-sch__schedule-time-item--empty"></div>
+                      <div class="c-content-televisita-sch__schedule-time-item c-content-televisita-sch__schedule-time-item--empty"></div>
+                      <div class="c-content-televisita-sch__schedule-time-item c-content-televisita-sch__schedule-time-item--empty"></div>
+                      <div class="c-content-televisita-sch__schedule-time-item c-content-televisita-sch__schedule-time-item--empty"></div>
+                      <div class="c-content-televisita-sch__schedule-time-item c-content-televisita-sch__schedule-time-item--empty"></div>
+                  </div>
+                 <div class="c-content-televisita-sch__schedule-time-col">
+                     <div class="c-content-televisita-sch__schedule-time-item c-content-televisita-sch__schedule-time-item--blue">10:00</div>
+                     <div class="c-content-televisita-sch__schedule-time-item">13:30</div>
+                     <div class="c-content-televisita-sch__schedule-time-item">14:00</div>
+                     <div class="c-content-televisita-sch__schedule-time-item">13:30</div>
+                     <div class="c-content-televisita-sch__schedule-time-item c-content-televisita-sch__schedule-time-item--blue">16:00</div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  </div>
+</div>
+
+</body>
+</html>
