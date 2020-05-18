@@ -1416,3 +1416,25 @@ c-content-patient-data__text--sm:nth-child(2) {
 .c-content-exams-perf__status--patients {
     margin-bottom: 17px;
 }
+
+.c-menu__doctor {
+    display: flex;
+}
+
+.c-menu__doctor-wrap {
+    display: flex;
+    flex-flow: column;
+    margin-left: 38px;
+    margin-right: 13px;
+}
+
+.c-menu__doctor-name, .c-menu__doctor-role {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.c-menu__doctor-role {
+    text-transform: uppercase;
+    color: #9E9E9E;
+}
