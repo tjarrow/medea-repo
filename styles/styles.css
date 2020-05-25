@@ -484,7 +484,7 @@ ul {
 }
 
 .c-sidebar--patient {
-    height: 1024px;
+    height: auto;
     box-shadow: 6px 0 9px -5px rgba(0, 0, 0, 0.25);
     margin-right: 30px;
     margin-top: -42px;
@@ -614,7 +614,7 @@ c-content-patient-data__text--sm:nth-child(2) {
 }
 
 .c-content-patient-televisita {
-    padding: 28px 17px 22px 27px;
+    padding: 28px 17px 20px 27px;
     height: 372px;
     margin-top: 21px;
     margin-left: 24px;
