@@ -19,6 +19,7 @@ ul {
     margin: 0;
 }
 
+
 .flex {
     display: flex;
 }
@@ -246,6 +247,10 @@ ul {
     font-weight: 700;
     color: #FFFFFF;
     width: 140px;
+}
+
+.c-content-televisita__top-btn:hover {
+    cursor: pointer;
 }
 
 .c-content-televisita__card-img {
@@ -806,6 +811,7 @@ c-content-patient-data__text--sm:nth-child(2) {
 }
 
 .c-signup-btn-submit {
+    text-align: center;
     font-family:'M PLUS Rounded 1c', sans-serif;
     background: #3A88C4;
     border-radius: 5px;
@@ -851,6 +857,7 @@ c-content-patient-data__text--sm:nth-child(2) {
 }
 
 .c-signup-ok-btn {
+    display: block;
     margin-top: 62px;
     background: #3A88C4;
     border-radius: 4px;
@@ -1229,6 +1236,7 @@ c-content-patient-data__text--sm:nth-child(2) {
 .c-content-patients__view-btn {
     display: block;
     margin-top: 35px;
+    font-size: 14px;
     color: #3A88C4;
     font-weight: 600;
 }
@@ -1250,7 +1258,7 @@ c-content-patient-data__text--sm:nth-child(2) {
     border-radius: 15px 0px 0px 15px;
     line-height: 1.5;
     padding: 26px 31px 28px 31px;
-    margin-bottom: 27px;
+    margin-bottom: 22px;
     height: 366px;
 }
 
@@ -1459,4 +1467,41 @@ c-content-patient-data__text--sm:nth-child(2) {
 .c-menu__doctor-role {
     text-transform: uppercase;
     color: #9E9E9E;
+}
+
+.c-role {
+    margin-top: 52px;
+    display: flex;
+    flex-flow: column;
+}
+
+.c-role__option {
+    text-align: center;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    background: #3A88C4;
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-bottom: 9px;
+    color: #FFFFFF;
+    margin-top: 18px;
+    border: none;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.c-role__option:hover {
+    cursor: pointer;
+}
+
+.c-role__title {
+    font-weight: 600;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 33px;
+}
+
+.c-signup--role {
+    height: 374px;
 }
