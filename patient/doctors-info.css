@@ -1,0 +1,119 @@
+.c-content-doctors-info__schedule {
+    padding-left: 43px;
+    width: 407px;
+    min-height: 393px;
+    padding-top: 27px;
+    padding-right: 38px;
+    background: #CBE8FF;
+    border-radius: 15px;
+}
+
+.c-content-televisita__card {
+    position: relative;
+}
+
+.c-content-televisita__card::after {
+    content: "x";
+    position: absolute;
+    right: 8px;
+    top: 0px;
+    display: block;
+    color: #a2001d;
+    width: 10px;
+    height: 10px;
+}
+
+.c-content-doctors-info__top-btn {
+    max-height: 40px;
+    float: right;
+    text-align: center;
+    line-height: 40px;
+    color: #FFFFFF;
+    background: #3A88C4;
+    box-sizing: border-box;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 700;
+    width: 140px;
+}
+
+.l-wrapper-hor--wide {
+    justify-content: space-between;
+}
+
+.c-content-doctors-info__title {
+    color: #3A88C4;
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.c-content-doctors-info__title--lg {
+    margin-top: 5px;
+    font-size: 22px;
+}
+
+.c-content-doctors-info__fav_doctors {
+    background: #FFEFD8;
+    border-radius: 15px ;
+    line-height: 1.5;
+    padding: 26px 31px 28px 31px;
+    margin-bottom: 22px;
+    height: 366px;
+}
+
+.c-content-doctors-info__top-btn--sm {
+    line-height: 30px;
+    max-height: 30px;
+    font-size: 12px;
+    margin-top: 10px;
+    width: auto;
+    padding: 0 10px;
+}
+
+
+.c-content-televisita__card-name {
+    margin: 0;
+    border-bottom: 2px solid gainsboro;
+}
+
+.c-content-doctors-info__close-ic {
+    display: block;
+    color: #a2001d;
+    width: 10px;
+    height: 10px;
+}
+
+.c-menu__patient-logo {
+    margin-right: 20px;
+}
+
+.c-content-patients__cards-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 15px;
+}
+
+.c-content-patients__cards-grid div {
+}
+
+.c-content-televisita__card-doctor {
+    width: 250px;
+}
+
+.c-content-patients__cards-grid-wrap {
+    display: flex;
+    flex-flow: column;
+    margin-left: 15px;
+}
+
+.c-content__all-patients {
+    background: #cfeac2;
+    padding: 28px;
+    border-radius: 15px;
+}
+
+.c-content__all-patients-title {
+    font-size: 22px;
+    color: #3A88C4;
+}

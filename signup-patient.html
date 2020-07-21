@@ -17,6 +17,12 @@
         <span class="c-signup-btn">Sign Up</span>
         <form action="" class="c-signup-form">
             <div class="c-signup-form__input-wrap c-signup-form__input-wrap--no-icon">
+                <input placeholder="First Name"  id="firstName" name="firstName" [(ngModel)]="firstName" required/>
+            </div>
+            <div class="c-signup-form__input-wrap c-signup-form__input-wrap--no-icon">
+                <input placeholder="Second Name" id="secondName" name="secondName" [(ngModel)]="secondName" required/>
+            </div>
+            <div class="c-signup-form__input-wrap c-signup-form__input-wrap--no-icon">
                 <input placeholder="Email Address" name="email" type="text">
             </div>
             <div class="c-signup-form__input-wrap">

@@ -19,7 +19,6 @@ ul {
     margin: 0;
 }
 
-
 .flex {
     display: flex;
 }
@@ -684,6 +683,7 @@ c-content-patient-data__text--sm:nth-child(2) {
 .c-auth-patients__login {
     margin-top: 57px;
     display: flex;
+    flex-flow: column;
 }
 
 .c-auth-medstaff__login {
@@ -1250,7 +1250,7 @@ c-content-patient-data__text--sm:nth-child(2) {
     font-size: 20px;
     font-weight: 600;
     display: inline-block;
-    color: #14598D;
+    color: #8ac3f1;
 }
 
 .c-content-dashboard-exams {
